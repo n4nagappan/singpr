@@ -45,7 +45,7 @@ You need CasperJs to run this script
 
 Usage
 =====
-Set values in the credentials.json file and run the following from commandline
+Set appropriate values in the credentials.json file and run the following from commandline
 
   >casperjs pr.js
 
