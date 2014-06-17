@@ -4,36 +4,36 @@ singpr
 This script scrapes available PR appointment dates from https://eappointment.ica.gov.sg/ibook/index.do
 The result is a json string of the following format :
 
-[
-  {
-    "available": 0,
-    "availableDates": [
-      
-    ],
-    "booked": 25,
-    "holidays": 5,
-    "month": "November 2014"
-  },
-  {
-    "available": 11,
-    "availableDates": [
-      "18",
-      "19",
-      "20",
-      "22",
-      "23",
-      "24",
-      "26",
-      "27",
-      "29",
-      "30",
-      "31"
-    ],
-    "booked": 15,
-    "holidays": 5,
-    "month": "December 2014"
-  }
-]
+  [
+    {
+      "available": 0,
+      "availableDates": [
+        
+      ],
+      "booked": 25,
+      "holidays": 5,
+      "month": "November 2014"
+    },
+    {
+      "available": 11,
+      "availableDates": [
+        "18",
+        "19",
+        "20",
+        "22",
+        "23",
+        "24",
+        "26",
+        "27",
+        "29",
+        "30",
+        "31"
+      ],
+      "booked": 15,
+      "holidays": 5,
+      "month": "December 2014"
+    }
+  ]
 
 Setup
 =====
@@ -46,5 +46,5 @@ You need CasperJs to run this script
 
 Usage :
 
-  > casperjs pr.js
+  >> casperjs pr.js
 
