@@ -8,7 +8,6 @@ The result is a json string of the following format :
     {
       "available": 0,
       "availableDates": [
-        
       ],
       "booked": 25,
       "holidays": 5,
@@ -46,5 +45,5 @@ You need CasperJs to run this script
 
 Usage :
 
-  >> casperjs pr.js
+   casperjs pr.js
 
