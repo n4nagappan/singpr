@@ -43,7 +43,8 @@ You need CasperJs to run this script
 3. Install CasperJS  - http://casperjs.readthedocs.org/en/latest/installation.html
 
 
-Usage :
+Usage
+=====
 
-   casperjs pr.js
+  >casperjs pr.js
 
