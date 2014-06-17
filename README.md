@@ -43,6 +43,14 @@ You need CasperJs to run this script
 3. Install CasperJS  - http://casperjs.readthedocs.org/en/latest/installation.html
 
 
+More Info
+=========
+
+This PR appointment availability site makes use of this script (cron) in the background : http://ffh.cloudapp.net/ 
+
+
+
+
 Usage
 =====
 Set appropriate values in the credentials.json file and run the following from commandline
